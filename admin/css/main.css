@@ -1,0 +1,18 @@
+.admin-img-box{
+    width: 200px !important;
+    min-height: 80px !important;
+    overflow: hidden !important;
+}
+.admin-img-box2{
+    max-width: 400px !important;
+    width: 400px !important;
+    height: 200px !important;
+    overflow: hidden !important;
+}
+
+.admin-img-box img, .admin-img-box2 img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}

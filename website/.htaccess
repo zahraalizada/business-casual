@@ -1,0 +1,14 @@
+RewriteRule ^index(/?)$ index.php
+RewriteRule ^about(/?)$ about.php
+RewriteRule ^faq(/?)$ faq.php
+
+RewriteRule ^news(/?)$ news.php?haber_kategori_id=1
+RewriteRule ^newsd(/?)$ newsd.php?haber_kategori_id=1
+RewriteRule ^newsd/([0-9]+)-([a-zA-Z0-9_-]+)$ newsd.php?id=$1&title=$2&haber_kategori_id=1
+RewriteRule ^newsd/([0-9]+)-([a-zA-Z0-9_-]+)/$ newsd.php?id=$1&title=$2&haber_kategori_id=1
+
+RewriteRule ^products(/?)$ products.php
+RewriteRule ^products/([0-9]+)-([a-zA-Z0-9_-]+)$ products.php?id=$1&title=$2
+RewriteRule ^products/([0-9]+)-([a-zA-Z0-9_-]+)/$ products.php?id=$1&title=$2
+RewriteRule ^product/([0-9]+)-([a-zA-Z0-9_-]+)$ product.php?id=$1&title=$2
+RewriteRule ^product/([0-9]+)-([a-zA-Z0-9_-]+)/$ product.php?id=$1&title=$2
