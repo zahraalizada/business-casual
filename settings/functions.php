@@ -22,12 +22,12 @@ function getData(string $tName, $id = null)
 {
     global $conn;
     if ($id == null) {
-        $sql = "SELECT * FROM $tName";
+        $sql = "SELECT * FROM $tName ";
         $sth = $conn->prepare($sql);
         $sth->execute();
         return $sth->fetchAll(\PDO::FETCH_ASSOC);
     } else {
-        $sql = "SELECT * FROM $tName WHERE id = $id";
+        $sql = "SELECT * FROM $tName WHERE id = $id ";
         $sth = $conn->prepare($sql);
         $sth->execute();
         return $sth->fetch(\PDO::FETCH_ASSOC);

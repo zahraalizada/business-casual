@@ -1,10 +1,9 @@
+
+<?php $page = "home"; ?>
 <?php require_once "layouts/admin_header.php"; ?>
 <?php require_once "layouts/admin_sidebar.php"; ?>
 <?php require_once "layouts/admin_navigation.php"; ?>
-<?php
-$page = "home";
-include "../settings/setting.php";
-?>
+<?php include "../settings/setting.php"; ?>
 
 
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -21,11 +20,11 @@ include "../settings/setting.php";
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                     <tr>
-                        <th width="200px">Image</th>
-                        <th width="200px">Title</th>
-                        <th width="200px">Subtitle</th>
+                        <th width="15%">Image</th>
+                        <th width="15%">Title</th>
+                        <th width="15%">Subtitle</th>
                         <th>Content</th>
-                        <th width="150px">Action</th>
+                        <th width="10%">Action</th>
                     </tr>
                     </thead>
                     <tbody>

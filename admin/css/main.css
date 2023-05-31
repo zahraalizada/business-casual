@@ -16,3 +16,7 @@
     object-fit: cover !important;
     object-position: center !important;
 }
+.ptb-100{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}

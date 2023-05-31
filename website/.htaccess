@@ -1,5 +1,8 @@
 RewriteRule ^index(/?)$ index.php
+RewriteRule ^home(/?)$ index.php
 RewriteRule ^about(/?)$ about.php
+RewriteRule ^products(/?)$ products.php
+RewriteRule ^store(/?)$ store.php
 RewriteRule ^faq(/?)$ faq.php
 
 RewriteRule ^news(/?)$ news.php?haber_kategori_id=1

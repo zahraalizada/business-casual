@@ -18,6 +18,12 @@ if (isset($page)) {
     if ($page == "products") {
         $getData = getData('products',$id ?? null);
     }
+    if ($page == "work_time") {
+        $getData = getData('work_time',$id ?? null);
+    }
+    if ($page == "store") {
+        $getData = getData('store',$id ?? null);
+    }
 
 
 }
